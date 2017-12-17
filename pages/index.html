@@ -1,13 +1,37 @@
 ---
 layout   : default
-permalink: /
+permalink: /index.html
 # Custom Page Variables
 # ─────────────────────
-title: Bootstrap 4 &mdash; Voorbeeld
+title: Home
 ---
-<div class="jumbotron">
-    <h1 class="display-3">{{ page.title }}</h1>
-</div>
-<div class="container">
-    <a class="btn btn-primary" href="http://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap 4 documentation</a>
+<div class="background">
+  <div class="jumbotron">
+        <div class="container">
+          <div class="row"> 
+              <div class="col-sm-3 col-md-3 col-lg-3">
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                  <article>
+                    <h1>Park me</h1>
+                    <div class="form-group">
+                      <label for="usr">Hoelang wil u parkeren:</label>
+                      <input type="text" class="form-control" id="usr">
+                    </div>
+                    <div class="form-group">
+                      <label for="pwd">Prijsklasse:</label>
+                      <input type="password" class="form-control" id="pwd">
+                    </div>
+                    <div class="form-group">
+                      <label for="pwd">Met welk voertuig rijdt u:</label>
+                      <input type="password" class="form-control" id="pwd">
+                    </div>
+                    <a class="btn btn-warning btn-lg" href="./products" role="button">Zoek een parkeerplaats</a>
+                    </article>
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                      </div>
+              </div>
+          </div>
+        </div>
+  </div>
 </div>

@@ -1,10 +1,14 @@
 body{
     font-family: avenir, sans-serif;
-    
+
 
 }
 .jumbotron{
-    background-color: #ffffff;
+    background-color: white !important;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 p{
     color: white;
